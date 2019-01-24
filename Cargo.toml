@@ -1,0 +1,11 @@
+[package]
+name = "hello_web"
+version = "0.0.0"
+authors = ["Noah Rosenzweig <rosenzweig.noah@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "0.7"
+colored = "1.7"
+diesel = { version = "1.4", features = ["postgres"] }
+maud = "0.20"
