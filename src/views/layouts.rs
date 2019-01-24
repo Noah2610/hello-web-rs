@@ -26,10 +26,10 @@ pub fn navigation(current_uri: Option<&str>) -> Markup {
                     a href="/" { "Home" }
                 }
                 li.active[is_uri(current_uri, "/one")] {
-                    a href="/one" { "Somewhere else" }
+                    a href="/posts" { "Posts" }
                 }
                 li.active[is_uri(current_uri, "/two")] {
-                    a href="/#" { "Another place" }
+                    a href="/posts/new" { "New Post" }
                 }
             }
         }

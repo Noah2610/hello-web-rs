@@ -6,8 +6,11 @@ mod prelude {
         HttpResponse,
         Responder,
         http::ContentEncoding,
+        Form,
+        Result,
     };
 }
 
 pub mod not_found;
 pub mod pages;
+pub mod posts;
